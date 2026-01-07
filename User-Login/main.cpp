@@ -15,18 +15,19 @@ This main file contains:
 #include "Utils.cpp"
 #include "User.h"
 
+using namespace std;
 
 int main() {
     AuthSystem auth;
     int choice;
 
     while (true) {
-        std::cout << "1. Register\n";
-        std::cout << "2. Login\n";
-        std::cout << "3. View Logs\n";
-        std::cout << "4. Exit\n";
-        std::cout << "Choice: ";
-        std::cin >> choice;
+        cout << "1. Register\n";
+        cout << "2. Login\n";
+        cout << "3. View Logs\n";
+        cout << "4. Exit\n";
+        cout << "Choice: ";
+        cin >> choice;
 
         if (choice == 1) {
             auth.registerUser();

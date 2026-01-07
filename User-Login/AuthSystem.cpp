@@ -2,6 +2,16 @@
 This file implements the AuthSystem class
 */
 
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <string>
+#include "AuthSystem.h"
+#include "User.h"
+#include "Utils.h"
+
+using namespace std;
+
 /*
 IMPLEMENT AuthSystem methods
 - File I/O
